@@ -1,0 +1,32 @@
+<div class="footer-block">
+  <div class="col">
+    <h5>CareDash</h5>
+    <ul class="list-unstyled text-small">
+      <li><a target="_blank" class="text-muted" href="https://www.caredash.com">Home</a></li>
+      <li><a target="_blank" class="text-muted" href="https://www.caredash.com/about">About</a></li>
+      <li><a target="_blank" class="text-muted" href="https://www.caredash.com/contact-us">Contact</a></li>
+      <li><a target="_blank" class="text-muted" href="https://www.caredash.com/review-your-doctor">Write a review</a></li>
+    </ul>
+  </div>
+  <div class="col">
+    <h5>Specialists</h5>
+    <ul class="list-unstyled text-small">
+      <li><a target="_blank" class="text-muted" href="https://www.caredash.com/specialties/primary-care-physicians">Primary Care Physicians</a></li>
+      <li><a target="_blank" class="text-muted" href="https://www.caredash.com/specialties/pediatrics">Pediatritians</a></li>
+      <li><a target="_blank" class="text-muted" href="https://www.caredash.com/specialties/optometry">Optometrists</a></li>
+      <li><a target="_blank" class="text-muted" href="https://www.caredash.com/specialties/dentistry">Dentists</a></li>
+    </ul>
+  </div>
+  <div class="col-sm-6">
+    <h5>Follow us</h5>
+    <div>
+      <a *ngFor="let network of socialNetworks" target="_blank" href="{{network.url}}">
+        <img src="{{network.iconURL}}" alt="{{network.name}}" class="footer-logo">
+      </a>
+    </div>
+  </div>
+</div>
+
+<div class="container">
+  <span>Copyright 2018 CareDash</span>
+</div>

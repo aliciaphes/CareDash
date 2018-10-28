@@ -1,0 +1,15 @@
+.footer-block{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+h5{
+  color: #b5d151;
+}
+
+.footer-logo{
+  max-width: 50px;
+  max-height: 50px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}

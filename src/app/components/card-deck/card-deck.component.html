@@ -1,0 +1,15 @@
+<div class="container">
+  <div class="card-deck">
+
+    <div *ngFor="let content of cardDeckContent" class="card">
+      <img src="{{content.img.src}}" alt="{{content.img.alt}}" class="card-img-top caredash-thumbnail">
+      <span class="photo-author"><i>Photo by {{content.img.author}} on Unsplash</i></span>
+      <div class="card-body">
+        <h5 class="card-title">{{content['card-title']}}</h5>
+        <p class="card-text">{{content['card-text']}}</p>
+      </div>
+      <a class="btn btn-lg btn-block" href="{{content.linkTo}}" role="button">Learn more</a>
+    </div>
+
+  </div>
+</div>

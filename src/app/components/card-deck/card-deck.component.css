@@ -1,0 +1,9 @@
+.caredash-thumbnail{
+  background-size: cover;
+  background-repeat: no-repeat;
+  height:200px;
+}
+
+a, a:hover{
+  color: #000000;
+}
